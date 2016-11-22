@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GUI Test 2 for Thesis UI</title>
+		<!--CSS-->
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+		<link rel="stylesheet" type="text/css" href="map_gui.css">
+
+		<!--JavaScript-->
+		<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		<script src="PathfinderLibrary.js"></script>
+	</head>
+
+	<body>
+		<div id="map"></div>
+
+		<div id="rightPanel">
+			<h1>Pathfinder</h1>
+
+			<h3>Source Menu</h3>
+			<select id="sourceDropDown" class="dropDowns">
+				<option value="None">None</option>
+				<!-- JavaScript will populate the other options. -->
+			</select>
+
+			<h3>Destination Menu</h3>
+			<select id="destinationDropDown" class="dropDowns">
+				<option value="None">None</option>
+				<!-- JavaScript will populate the other options. -->
+			</select>
+
+			<h3>Date</h3>
+			<input id="dateInput" type="date" name="currentDate" value="2016-01-01">
+
+			<h3>Time</h3>
+			<input id="timeInput" type="time" name="currentTime" value="10:00" step="60">
+
+			<h3>Total Distance</h3>
+			<input id="totalDistanceOutput" type="text" name="totalDistance">
+
+			<h3>Total Travel Time</h3>
+			<input id="totalTravelTimeOutput" type="text" name="totalTravelTime">
+
+			<input id="submitButton" type="button" value="Submit">
+		</div>
+
+		<script src="NodesWithCoordinates.js"></script>
+		<script src="map_gui.js"></script>
+	</body>
+</html>

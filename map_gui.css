@@ -1,0 +1,72 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #b74343;
+}
+
+#map
+{
+	background-color: #3c7091;
+	height: 100%;
+	width: 70%;
+	float: left;
+	position: fixed;
+}
+
+#rightPanel
+{
+	background-color: #b74343;
+	float: right;
+	width: 30%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 20px 20px 20px 20px;
+	font-family: "Rockwell";
+}
+
+#rightPanel h1, #rightPanel h3
+{
+	color: #ffffff;
+}
+
+#rightPanel h3
+{
+	margin: 20px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.dropDowns
+{
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	font-family: "Verdana";
+}
+
+#totalDistanceOutput, #totalTravelTimeOutput
+{
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	font-family: "Verdana";
+	box-sizing: border-box;
+}
+
+#dateInput, #timeInput
+{
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	box-sizing: border-box;
+}
+
+#submitButton
+{
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 20px 0px 0px 0px;
+	box-sizing: border-box;
+}
